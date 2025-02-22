@@ -26,6 +26,10 @@ and play it to test their knowledge in the content they have studied
   git clone https://huggingface.co/valhalla/t5-base-qg-hl src/components/model
   git clone https://huggingface.co/deepset/roberta-base-squad2 src/components/model
   ```
+
+## How to Run
+* Type in ``npm start``
+* Open new terminal in src/components folder and type ``python backend.py``
   
 
 
