@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import Quizzes from '../Quizzes.json';
+// Use this for Command Prompt
+// import Quizzes from '../Quizzes.json'; 
+// Use this for PowerShell
+import Quizzes from './Quizzes.json';
 import styled, { createGlobalStyle } from 'styled-components';
 import WrongLogo from './images/wrong-Logo.png';
 import RightLogo from './images/right-Logo.png';
