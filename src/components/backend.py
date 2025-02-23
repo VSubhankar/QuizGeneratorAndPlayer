@@ -11,10 +11,13 @@ from nltk.corpus import wordnet
 from transformers import pipeline
 from collections import Counter
 import unicodedata
-import nltk
 from transformers import T5Tokenizer
 import unicodedata
-from unidecode import unidecode 
+from unidecode import unidecode
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
 
 
 app = Flask(__name__)
